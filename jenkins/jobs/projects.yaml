@@ -1,0 +1,6 @@
+- project:
+    name: example1
+    node: bare-trusty
+
+    jobs:
+        - gate-{name}-pep8

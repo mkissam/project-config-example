@@ -1,0 +1,11 @@
+- job-template:
+    name: 'gate-{name}-pep8'
+
+    builders:
+      - revoke-sudo
+      - docs
+
+    publishers:
+      - zuul-swift-upload-console-log
+
+    node: '{node}'
