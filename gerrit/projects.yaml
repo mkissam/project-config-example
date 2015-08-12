@@ -1,0 +1,3 @@
+- project: example/example1
+  description: Best project ever.
+  remote: https://github.com/mkissam/puppet-training.git
